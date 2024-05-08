@@ -54,8 +54,8 @@
    
 }
 body{
-    height: 3000px;
-    background-color: rgba(163,188,192,255);
+    height: auto;
+    background-color: #fefefe;
 }
 .main{
     display: flex;
@@ -81,6 +81,9 @@ body{
     margin-left: 25px;
 
 }
+.content li:hover{
+    text-decoration: underline;
+}
 .getintouch{
     margin-right:20px ;
     height: 30px;
@@ -93,7 +96,7 @@ body{
 }
 
 .pic{
-    height: 20%;
+    height: 80%;
     width: 100%;
     /* position: relative; */
 }
@@ -126,7 +129,7 @@ body{
     background-color: transparent;    
 }
 button:hover{
-        cursor: pointer;background-color: green;
+        cursor: pointer;
         box-shadow: 20px;
         box-shadow: 5px 5px; 
         
@@ -181,13 +184,13 @@ button:active{
 
     font-size: 19px;
 }
-.footer{
+.mid{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
 }
-.footer p{
+.mid p{
     line-height: 40px;
     font-size: 15px;
     /* margin-right: 290px; */
@@ -211,4 +214,73 @@ button:active{
     margin-right: 490px;
     font-size: 14px;
 
+}
+.cvbutton{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.content ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+}
+.content li{
+    justify-content: space-between;
+    align-items: center;
+}
+.content li:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 20px;
+    /* text-decoration: underline; */
+    /* text-decoration-color:lightpink; */
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: lightpink;
+}
+.footer ul{
+    list-style-type: none;
+    color: white;
+}
+.footer li:hover{
+    color: lightslategray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer img:hover{
+    cursor: pointer;
+}
+.symbol{
+    display: flex;
+    flex-direction: row;
+}
+.footer1{
+    margin-left: 90px;
+    line-height: 27px;
+}
+.footer2{
+    line-height: 27px;
+    margin-right: 20px;
+}
+.footer3{
+    line-height: 27px;
+    margin-right: 30px;
+}
+.footer4{
+    margin-right: 250px;
 }
